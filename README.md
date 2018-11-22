@@ -1,6 +1,6 @@
 ## Loggy
 
-Loggy aims to be the one stop solution for all your personal life tracking and logging needs. Whether it be logging your weight, expenses, sleep or food intake, Loggy's seemless integration between platforms and channels will ensure you always are able to track your activity at a moments notice. 
+Loggy aims to be the one stop solution for all your personal life tracking and logging needs. Whether it be logging your weight, expenses, sleep or food intake, Loggy's seamless integration between platforms and channels will ensure you always are able to track your activity at a moments notice. 
 
 ## Getting Started
 
