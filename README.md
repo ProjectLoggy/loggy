@@ -6,6 +6,9 @@ Loggy aims to be the one stop solution for all your personal life tracking and l
 
 ```git clone https://github.com/willemodendaal/loggy.git ```
 
+## Architecture
+
+* [Architecture docs](https://github.com/willemodendaal/loggy/blob/master/doc/architecture.md)
 
 ### Prerequisites
 
