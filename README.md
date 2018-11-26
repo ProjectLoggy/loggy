@@ -31,7 +31,9 @@ Coming soon...
 
 * [.NET CORE 2.1](https://www.microsoft.com/net/download) - Base Language
 * [GraphQL](https://graphql.org/) - API Handler
-* [React](https://reactjs.org/) - FrontEnd
+* [React](https://reactjs.org/) + [Redux](https://redux.js.org/) - FrontEnd
+* [Kubernetes](https://kubernetes.io/) - Orchestration
+* [MongoDb](https://www.mongodb.com/) - Data storage
 
 ## Contributing
 
