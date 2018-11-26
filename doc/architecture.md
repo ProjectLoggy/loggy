@@ -3,7 +3,7 @@
 ## Components:
 
 - Log Channels
-- [Data Model](https://github.com/willemodendaal/loggy/blob/master/doc/diagrams/data%20model.png)
+- [Data Model](https://github.com/willemodendaal/loggy/blob/master/doc/diagrams/data%20model.md)
 - API
 - Container Structure
 - Storage
