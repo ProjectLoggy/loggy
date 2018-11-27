@@ -5,8 +5,9 @@
 - Log Channels
 - [Data Model](https://github.com/willemodendaal/loggy/blob/master/doc/data%20model.md)
 - API
-- Container Structure
+- [Kubernetes Structure](https://github.com/willemodendaal/loggy/blob/master/doc/kubernetes.md)
 - Storage
+- Testing
 
 ## Overview
 
