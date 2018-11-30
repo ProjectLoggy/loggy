@@ -1,3 +1,0 @@
-C:\Repositories\loggy\Loggy\Loggy\obj\Debug\netcoreapp2.1\Loggy.csproj.CoreCompileInputs.cache
-C:\Repositories\loggy\Loggy\Loggy\obj\Debug\netcoreapp2.1\Loggy.AssemblyInfoInputs.cache
-C:\Repositories\loggy\Loggy\Loggy\obj\Debug\netcoreapp2.1\Loggy.AssemblyInfo.cs
