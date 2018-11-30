@@ -37,6 +37,7 @@ Coming soon...
 * [React](https://reactjs.org/) + [Redux](https://redux.js.org/) - FrontEnd
 * [Kubernetes](https://kubernetes.io/) - Orchestration
 * [MongoDb](https://www.mongodb.com/) - Data storage
+* [Katalon](https://www.katalon.com/) - Integration testing.
 
 ## Contributing
 
