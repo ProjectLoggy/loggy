@@ -12,8 +12,8 @@ Loggy aims to be the one stop solution for all your personal life tracking and l
 
 ### Prerequisites
 
-*Your IDE of choice
-*Git
+* Visual Studio 2017 - Enterprise or Community Edition.
+* Git
 
 
 ### Installing
@@ -33,8 +33,14 @@ Coming soon...
 ## Built With
 
 * [.NET CORE 2.1](https://www.microsoft.com/net/download) - Base Language
+  * MSTest - BackEnd unit tests.
 * [GraphQL](https://graphql.org/) - API Handler
-* [React](https://reactjs.org/) + [Redux](https://redux.js.org/) - FrontEnd
+* [React](https://reactjs.org/) - FrontEnd
+  * [Jasmine BDD](https://jasmine.github.io/index.html) - FrontEnd unit tests.
+  * [TypeScript](https://www.typescriptlang.org/) - Type checking.
+  * [Redux](https://redux.js.org/) - State management.
+  * [Webpack](https://webpack.js.org/) - Bundling.
+  * [Babel](https://babeljs.io/) - Transpiling.
 * [Kubernetes](https://kubernetes.io/) - Orchestration
 * [MongoDb](https://www.mongodb.com/) - Data storage
 * [Katalon](https://www.katalon.com/) - Integration testing.
