@@ -32,9 +32,9 @@ Coming soon...
 
 ## Built With
 
-* [.NET CORE 2.1](https://www.microsoft.com/net/download) - Base Language
+* [.NET CORE 2.2](https://www.microsoft.com/net/download) - BackEnd language
   * MSTest - BackEnd unit tests.
-* [GraphQL](https://graphql.org/) - API Handler
+* [GraphQL](https://graphql.org/) using [GraphQL-dotnet](https://github.com/graphql-dotnet/graphql-dotnet) - API Handler
 * [React](https://reactjs.org/) - FrontEnd
   * [Jasmine BDD](https://jasmine.github.io/index.html) - FrontEnd unit tests.
   * [TypeScript](https://www.typescriptlang.org/) - Type checking.
