@@ -6,6 +6,7 @@ using GraphiQl;
 using GraphQL;
 using GraphQL.Types;
 using Loggy.Api.DataAccess;
+using Loggy.Api.Model.Queries;
 using Loggy.Api.Schema;
 using Loggy.Api.Schema.Queries;
 using Microsoft.AspNetCore.Builder;
@@ -30,11 +31,12 @@ namespace Loggy.Api
 			services.AddSingleton<IDependencyResolver>(s => new FuncDependencyResolver(s.GetRequiredService));
 			services.AddSingleton<IDocumentExecuter, DocumentExecuter>();
 			services.AddSingleton<RootQuery>();
+			services.AddSingleton<MySubQuery>();
 			services.AddSingleton<LogEntriesQuery>();
 
 			var serviceProvider = services.BuildServiceProvider();
 			services.AddSingleton<ISchema>(
-				new LogSchema(resolver: 
+				new Schema.Schema(resolver: 
 					new FuncDependencyResolver(resolver: type => serviceProvider.GetService(type))));
 		}
 

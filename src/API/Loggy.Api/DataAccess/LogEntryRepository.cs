@@ -3,21 +3,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Loggy.Api.Schema;
+using Loggy.Api.Schema.Queries;
 
 namespace Loggy.Api.DataAccess
 {
 	public interface ILogEntryRepository
 	{
-		Task<IList<LogEntry>> GetAllForUserAsync(string userId);
+		Task<IList<SubObject>> GetAllForUserAsync(string userId);
 	}
 
 	public class LogEntryRepository : ILogEntryRepository
 	{
-		public Task<IList<LogEntry>> GetAllForUserAsync(string userId)
+		public Task<IList<SubObject>> GetAllForUserAsync(string userId)
 		{
-			return Task.FromResult((IList<LogEntry>)new List<LogEntry>()
+			return Task.FromResult((IList<SubObject>)new List<SubObject>()
 			{
-				new LogEntry()
+				new SubObject()
 			});
 		}
 
