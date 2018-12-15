@@ -33,8 +33,9 @@ namespace Loggy.Api
 			services.AddSingleton<RootQuery>();
 			services.AddSingleton<MySubQuery>();
 			services.AddSingleton<LogEntriesQuery>();
+            services.AddSingleton<MySubObjectGraphType>();
 
-			var serviceProvider = services.BuildServiceProvider();
+            var serviceProvider = services.BuildServiceProvider();
 			services.AddSingleton<ISchema>(
 				new Schema.Schema(resolver: 
 					new FuncDependencyResolver(resolver: type => serviceProvider.GetService(type))));
