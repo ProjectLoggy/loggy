@@ -1,2 +1,6 @@
 language: csharp
+mono: none
+dotnet: 2.2.0
 solution: src/Loggy.sln
+script:
+ - dotnet restore
