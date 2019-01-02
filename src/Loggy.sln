@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loggy.Channels.EmailChannel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loggy.Channels.ApiChannel", "LogChannels\Loggy.LogChannels.Api\Loggy.Channels.ApiChannel.csproj", "{258BD834-E609-4401-A23B-290E822833A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loggy.DataAccess", "Api\Loggy.DataAccess\Loggy.DataAccess.csproj", "{412E8D8C-E6A4-45B7-906E-E5280CA933C0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loggy.DataAccess", "API\Loggy.DataAccess\Loggy.DataAccess.csproj", "{412E8D8C-E6A4-45B7-906E-E5280CA933C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
