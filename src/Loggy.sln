@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loggy.WebUI", "WebUI\Loggy.WebUI\Loggy.WebUI.csproj", "{0ADFC848-7948-45C0-A531-AD95EBE15AC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loggy.WebUI", "WebUI\Loggy.WebUI\Loggy.WebUI.csproj", "{0ADFC848-7948-45C0-A531-AD95EBE15AC3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebUI", "WebUI", "{A77237DA-45BC-4164-891E-5AE6D23DF9AA}"
 EndProject
@@ -13,11 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LogChannels", "LogChannels"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{71535CBB-F77E-4869-8667-5C8151996FEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loggy.Api", "API\Loggy.Api\Loggy.Api.csproj", "{71D78A9F-0F34-4A23-B1A1-A0019969E956}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loggy.Api", "API\Loggy.Api\Loggy.Api.csproj", "{71D78A9F-0F34-4A23-B1A1-A0019969E956}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loggy.Api.Tests", "Tests\Loggy.Api.Tests\Loggy.Api.Tests.csproj", "{A48B3776-DBD8-41CD-AD27-A045C9E0C65C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loggy.Api.Tests", "Tests\Loggy.Api.Tests\Loggy.Api.Tests.csproj", "{A48B3776-DBD8-41CD-AD27-A045C9E0C65C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loggy.Channels.EmailChannel", "LogChannels\WebApplication1\Loggy.Channels.EmailChannel.csproj", "{10B87841-9CF6-4628-B873-01BB36C61446}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loggy.Channels.EmailChannel", "LogChannels\WebApplication1\Loggy.Channels.EmailChannel.csproj", "{10B87841-9CF6-4628-B873-01BB36C61446}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loggy.Channels.ApiChannel", "LogChannels\Loggy.LogChannels.Api\Loggy.Channels.ApiChannel.csproj", "{258BD834-E609-4401-A23B-290E822833A7}"
 EndProject
@@ -49,10 +49,6 @@ Global
 		{258BD834-E609-4401-A23B-290E822833A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{258BD834-E609-4401-A23B-290E822833A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{258BD834-E609-4401-A23B-290E822833A7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{412E8D8C-E6A4-45B7-906E-E5280CA933C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{412E8D8C-E6A4-45B7-906E-E5280CA933C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{412E8D8C-E6A4-45B7-906E-E5280CA933C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{412E8D8C-E6A4-45B7-906E-E5280CA933C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,7 +59,6 @@ Global
 		{A48B3776-DBD8-41CD-AD27-A045C9E0C65C} = {41EAC45B-2D7A-4B57-813A-7ABE8A1E65C6}
 		{10B87841-9CF6-4628-B873-01BB36C61446} = {870BD2EF-6999-4078-8867-1C4709FE4C9B}
 		{258BD834-E609-4401-A23B-290E822833A7} = {870BD2EF-6999-4078-8867-1C4709FE4C9B}
-		{412E8D8C-E6A4-45B7-906E-E5280CA933C0} = {71535CBB-F77E-4869-8667-5C8151996FEC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {411BB96B-FA81-4DDA-A1CE-BFCEF55CBF4C}
