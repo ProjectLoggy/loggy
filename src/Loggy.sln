@@ -19,9 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loggy.Api.Tests", "Tests\Lo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loggy.Channels.EmailChannel", "LogChannels\WebApplication1\Loggy.Channels.EmailChannel.csproj", "{10B87841-9CF6-4628-B873-01BB36C61446}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loggy.Channels.ApiChannel", "LogChannels\Loggy.LogChannels.Api\Loggy.Channels.ApiChannel.csproj", "{258BD834-E609-4401-A23B-290E822833A7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loggy.DataAccess", "API\Loggy.DataAccess\Loggy.DataAccess.csproj", "{412E8D8C-E6A4-45B7-906E-E5280CA933C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loggy.Channels.ApiChannel", "LogChannels\Loggy.LogChannels.Api\Loggy.Channels.ApiChannel.csproj", "{258BD834-E609-4401-A23B-290E822833A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
