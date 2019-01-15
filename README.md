@@ -57,6 +57,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 * **Willem Odendaal** - *Idea Wizard and Repo Creator* - [WillemO](https://github.com/willemodendaal)
 * **Ryan McCartney** - *The next Zuckerberg and Readme designer* - [Ryan](https://github.com/RJMccartney)
+* **Jean-Paul Thorne** - *Who came up with these titles???* - [JP](https://github.com/JPThorne)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
