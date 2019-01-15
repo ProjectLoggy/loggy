@@ -12,6 +12,14 @@ namespace Loggy.Api.Model.Queries
 			Field<LogEntriesQuery>(
 				name: "logEntries",
 				resolve: ctx => new{ });
+
+			Field<LogSubjectsQuery>(
+				name: "logSubjects",
+				resolve: ctx => new{ });
+
+			Field<UsersQuery>(
+				name: "users",
+				resolve: ctx => new{ });
 		}
 	}
 }

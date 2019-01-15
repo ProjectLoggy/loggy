@@ -6,7 +6,7 @@ namespace Loggy.Api.Model
 	{
 	}
 
-	public class LogFieldEntryType: ObjectGraphType<LogFieldEntry>
+	public class LogFieldEntryGraphType: ObjectGraphType<LogFieldEntry>
 	{
 	}
 }

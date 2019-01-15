@@ -15,6 +15,7 @@ namespace Loggy.Api.Controllers
 		private readonly IDocumentExecuter _documentExecuter;
 		private readonly ISchema _schema;
 
+		// ReSharper disable once IdentifierTypo
 		public GraphQlController(ISchema schema, IDocumentExecuter documentExecuter)
 		{
 			_schema = schema;

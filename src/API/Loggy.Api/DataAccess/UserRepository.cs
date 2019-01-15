@@ -15,7 +15,7 @@ namespace Loggy.Api.DataAccess
 	{
 		public Task<User> GetByIdAsync(string userId)
 		{
-			return Task.FromResult(new User());
+			return Task.FromResult(new User(userId, $"{userId}Name"));
 		}
 	}
 }

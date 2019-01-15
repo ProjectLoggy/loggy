@@ -6,6 +6,12 @@ namespace Loggy.Api.DataAccess
 {
 	public interface ILogEntryRepository
 	{
+		/// <summary>
+		/// Not possible to fetch all log entries in the database. Must be fetched with a userId to return
+		///   log entries for the user.
+		/// </summary>
+		/// <param name="userId"></param>
+		/// <returns></returns>
 		Task<IList<LogEntry>> GetAllForUserAsync(string userId);
 	}
 

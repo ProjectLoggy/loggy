@@ -6,11 +6,17 @@ namespace Loggy.Api.Model
 	{
 		public string UserId { get; set; }
 		public string UserName { get; set; }
+
+		public User(string userId, string userName)
+		{
+			UserId = userId;
+			UserName = userName;
+		}
 	}
 
-	public class UserType: ObjectGraphType<User>
+	public class UserGraphType: ObjectGraphType<User>
 	{
-		public UserType()
+		public UserGraphType()
 		{
 			Name = "User";
 
