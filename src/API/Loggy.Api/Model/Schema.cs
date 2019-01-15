@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using GraphQL;
-using Loggy.Api.Schema.Queries;
+﻿using GraphQL;
+using Loggy.Api.Model.Queries;
 
-namespace Loggy.Api.Schema
+namespace Loggy.Api.Model
 {
 	public class Schema: GraphQL.Types.Schema
 	{

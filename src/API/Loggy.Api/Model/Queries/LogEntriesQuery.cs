@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using GraphQL.Types;
+﻿using GraphQL.Types;
 using Loggy.Api.DataAccess;
 
-namespace Loggy.Api.Schema.Queries
+namespace Loggy.Api.Model.Queries
 {
 	public class LogEntriesQuery: ObjectGraphType
 	{
@@ -13,9 +9,9 @@ namespace Loggy.Api.Schema.Queries
 		{
 			Name = "LogEntriesQuery";
 
-			Field<ListGraphType<MySubObjectGraphType>>(
+			Field<ListGraphType<LogEntryGraphType>>(
 				name: "logEntriesForUser",
-				arguments: new QueryArguments(new QueryArgument<IntGraphType> { Name = "userId" }),
+				arguments: new QueryArguments(new QueryArgument<StringGraphType> { Name = "userId" }),
 				resolve: ctx => repo.GetAllForUserAsync(ctx.GetArgument<string>("userId")).Result);
 		}
 	}

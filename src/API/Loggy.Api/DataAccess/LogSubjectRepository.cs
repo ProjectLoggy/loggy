@@ -3,7 +3,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Loggy.Api.Schema;
+using Loggy.Api.Model;
 
 namespace Loggy.Api.DataAccess
 {

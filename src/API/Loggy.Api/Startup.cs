@@ -6,13 +6,13 @@ using GraphiQl;
 using GraphQL;
 using GraphQL.Types;
 using Loggy.Api.DataAccess;
+using Loggy.Api.Model;
 using Loggy.Api.Model.Queries;
-using Loggy.Api.Schema;
-using Loggy.Api.Schema.Queries;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
+using Schema = Loggy.Api.Model.Schema;
 
 namespace Loggy.Api
 {
@@ -30,15 +30,25 @@ namespace Loggy.Api
 			
 			services.AddSingleton<IDependencyResolver>(s => new FuncDependencyResolver(s.GetRequiredService));
 			services.AddSingleton<IDocumentExecuter, DocumentExecuter>();
-			services.AddSingleton<RootQuery>();
-			services.AddSingleton<MySubQuery>();
-			services.AddSingleton<LogEntriesQuery>();
-            services.AddSingleton<MySubObjectGraphType>();
 
-            var serviceProvider = services.BuildServiceProvider();
+			RegisterQueryServices(services);
+			RegisterGraphTypeServices(services);
+
+			var serviceProvider = services.BuildServiceProvider();
 			services.AddSingleton<ISchema>(
-				new Schema.Schema(resolver: 
+				new Schema(resolver: 
 					new FuncDependencyResolver(resolver: type => serviceProvider.GetService(type))));
+		}
+
+		private static void RegisterQueryServices(IServiceCollection services)
+		{
+			services.AddSingleton<RootQuery>();
+			services.AddSingleton<LogEntriesQuery>();
+		}
+
+		private static void RegisterGraphTypeServices(IServiceCollection services)
+		{
+			services.AddSingleton<LogEntryGraphType>();
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

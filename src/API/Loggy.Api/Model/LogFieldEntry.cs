@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using GraphQL.Types;
+﻿using GraphQL.Types;
 
-namespace Loggy.Api.Schema
+namespace Loggy.Api.Model
 {
 	public class LogFieldEntry
 	{
