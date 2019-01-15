@@ -53,6 +53,10 @@ Clone
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](Coming soon...)
 
+## CI/CD
+
+PR's will automatically trigger a build on Travis. PR's should not be merged unless the build is successful. 
+
 ## Authors
 
 * **Willem Odendaal** - *Idea Wizard and Repo Creator* - [WillemO](https://github.com/willemodendaal)
