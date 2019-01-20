@@ -1,7 +1,7 @@
 language: csharp
 mono: none
 sudo: required
-dist: xenial
+dist: trusty
 dotnet: 2.2
 solution: src/Loggy.sln
 script:
@@ -9,6 +9,12 @@ script:
  - dotnet restore
  - dotnet build -c Release
  - dotnet test
+ - sonar-scanner
 global:
  - DOTNET_SKIP_FIRST_TIME_EXPERIENCE=true
  - DOTNET_CLI_TELEMETRY_OPTOUT=1
+ addons:
+  sonarcloud:
+    organization: "projectloggy" # the key of the org
+    token:
+      secure: "${SONAR_TOKEN}" # encrypted value of your token
