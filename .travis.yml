@@ -18,4 +18,4 @@ addons:
  sonarcloud:
    organization: "projectloggy" # the key of the org
    token:
-     secure: ${SONAR_TOKEN} # encrypted value of your token
+     secure: "${SONAR_TOKEN}" # encrypted value of your token
