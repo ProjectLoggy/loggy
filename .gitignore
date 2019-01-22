@@ -5,3 +5,4 @@ obj
 node_modules
 packages
 *.user
+.sonarqube/

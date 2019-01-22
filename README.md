@@ -55,8 +55,8 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## CI/CD
 
-PR's will automatically trigger a build on [Travis] (https://travis-ci.com/ProjectLoggy/loggy). PR's should not be merged unless the build is successful. 
-Code quality analysis is done using [Sonar Qube] (https://sonarcloud.io/organizations/projectloggy/projects)
+PR's will automatically trigger a build on [Travis](https://travis-ci.com/ProjectLoggy/loggy). PR's should not be merged unless the build is successful. 
+Code quality analysis is done using [Sonar Qube](https://sonarcloud.io/organizations/projectloggy/projects)
 
 ## Authors
 

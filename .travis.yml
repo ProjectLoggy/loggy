@@ -1,20 +1,28 @@
 language: csharp
 mono: none
 sudo: required
-dist: trusty
+
+#must use xenial dist for now; cant use trusty dist
+dist: xenial
 dotnet: 2.2
 solution: src/Loggy.sln
+
+#setup required tools 1st
+install: 
+ - dotnet tool install --global dotnet-sonarscanner --version 4.5.0
+
+#add dotnet tools as PATH in before_script
+before_script:
+ - export PATH="$PATH:$HOME/.dotnet/tools"
+
+#scripts to run; wrapped in sonarscanner begin - end block
 script:
  - cd src
  - dotnet restore
+ - dotnet-sonarscanner begin /k:"ProjectLoggy_loggy" /d:sonar.organization="projectloggy" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.login="$SONAR_TOKEN" || true
  - dotnet build -c Release
  - dotnet test
- - sonar-scanner
+ - dotnet-sonarscanner end /d:sonar.login="$SONAR_TOKEN" || true
 global:
  - DOTNET_SKIP_FIRST_TIME_EXPERIENCE=true
  - DOTNET_CLI_TELEMETRY_OPTOUT=1
-addons:
- sonarcloud:
-   organization: "projectloggy" # the key of the org
-   token:
-     secure: ${SONAR_TOKEN} # encrypted value of your token
