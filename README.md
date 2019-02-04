@@ -4,23 +4,24 @@ Loggy aims to be the one stop solution for all your personal life tracking and l
 
 ## Getting Started
 
-```git clone https://github.com/willemodendaal/loggy.git ```
+```git clone https://github.com/ProjectLoggy/loggy.git ```
 
 ## Architecture
 
-* [Architecture docs](https://github.com/willemodendaal/loggy/blob/master/doc/architecture.md)
+* [Architecture docs](https://github.com/ProjectLoggy/loggy/blob/master/doc/architecture.md)
 
 ### Prerequisites
 
 * Visual Studio 2017 - Enterprise or Community Edition.
 * Git
-
+* [Minikube](https://kubernetes.io/docs/setup/minikube/) - Simple Kubernetes cluster, to debug locally.
+  * See [Minikube Windows 10 Debugging Tips](https://github.com/ProjectLoggy/loggy/blob/master/doc/minikube+windows+10+debugging+tips.md) if you have trouble running Minikube.
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Coming soon...
+* Pull source code from the repo.
+* Build docker images.
+* Update local Kubernetes deployments by deploying to Minikube.
 
 ## Running the tests
 
