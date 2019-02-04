@@ -3,12 +3,12 @@
 ## Components:
 
 - Log Channels
-- [Data Model](https://github.com/willemodendaal/loggy/blob/master/doc/data%20model.md)
+- [Data Model](https://github.com/ProjectLoggy/loggy/blob/master/doc/data%20model.md)
 - API
-- [Kubernetes Structure](https://github.com/willemodendaal/loggy/blob/master/doc/kubernetes.md)
+- [Kubernetes Structure](https://github.com/ProjectLoggy/loggy/blob/master/doc/kubernetes.md)
 - Storage
 - Testing
 
 ## Overview
 
-![Architecture overview diagram](https://github.com/willemodendaal/loggy/blob/master/doc/diagrams/architectural%20overview.png)
+![Architecture overview diagram](https://github.com/ProjectLoggy/loggy/blob/master/doc/diagrams/architectural%20overview.png)
