@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using GraphQL;
 using GraphQL.Types;
+using Loggy.Api.GraphQlSchema;
 using Loggy.Api.Model;
 using Microsoft.AspNetCore.Mvc;
 

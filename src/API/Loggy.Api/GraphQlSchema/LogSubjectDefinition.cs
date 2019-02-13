@@ -1,20 +1,9 @@
 ﻿using GraphQL.Types;
-using Loggy.Api.DataAccess;
+using Loggy.Api.DataAccess.MongoDb.DataAccess;
+using Loggy.Api.Model.Model;
 
-namespace Loggy.Api.Model
+namespace Loggy.Api.GraphQlSchema
 {
-	public class LogSubjectDefinition
-	{
-		public string SubjectId { get; set; }
-		public string SubjectName { get; set; }
-
-		public LogSubjectDefinition(string subjectId, string subjectName)
-		{
-			SubjectId = subjectId;
-			SubjectName = subjectName;
-		}
-	}
-
 	public class LogSubjectDefinitionGraphType: ObjectGraphType<LogSubjectDefinition>
 	{
 		public LogSubjectDefinitionGraphType(ILogSubjectRepository repo)

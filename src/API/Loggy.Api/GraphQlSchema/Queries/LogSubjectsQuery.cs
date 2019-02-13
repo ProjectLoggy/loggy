@@ -1,7 +1,7 @@
 ﻿using GraphQL.Types;
-using Loggy.Api.DataAccess;
+using Loggy.Api.DataAccess.MongoDb.DataAccess;
 
-namespace Loggy.Api.Model.Queries
+namespace Loggy.Api.GraphQlSchema.Queries
 {
 	public class LogSubjectsQuery: ObjectGraphType
 	{

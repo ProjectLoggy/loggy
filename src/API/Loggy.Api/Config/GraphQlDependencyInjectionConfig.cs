@@ -1,9 +1,10 @@
 ﻿using GraphQL;
 using GraphQL.Types;
+using Loggy.Api.GraphQlSchema;
+using Loggy.Api.GraphQlSchema.Queries;
 using Loggy.Api.Model;
-using Loggy.Api.Model.Queries;
 using Microsoft.Extensions.DependencyInjection;
-using Schema = Loggy.Api.Model.Schema;
+using Schema = Loggy.Api.GraphQlSchema.Schema;
 
 namespace Loggy.Api.Config
 {

@@ -1,7 +1,7 @@
 ﻿using GraphQL;
-using Loggy.Api.Model.Queries;
+using Loggy.Api.GraphQlSchema.Queries;
 
-namespace Loggy.Api.Model
+namespace Loggy.Api.GraphQlSchema
 {
 	public class Schema: GraphQL.Types.Schema
 	{

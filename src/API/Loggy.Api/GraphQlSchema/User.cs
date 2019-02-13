@@ -1,19 +1,8 @@
 ﻿using GraphQL.Types;
+using Loggy.Api.Model.Model;
 
-namespace Loggy.Api.Model
+namespace Loggy.Api.GraphQlSchema
 {
-	public class User
-	{
-		public string UserId { get; set; }
-		public string UserName { get; set; }
-
-		public User(string userId, string userName)
-		{
-			UserId = userId;
-			UserName = userName;
-		}
-	}
-
 	public class UserGraphType: ObjectGraphType<User>
 	{
 		public UserGraphType()

@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Loggy.Api.Model;
+﻿using System.Threading.Tasks;
+using Loggy.Api.Model.Model;
 
-namespace Loggy.Api.DataAccess
+namespace Loggy.Api.DataAccess.MongoDb.DataAccess
 {
 	public interface IUserRepository
 	{

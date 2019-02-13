@@ -1,7 +1,7 @@
 ﻿using GraphQL;
 using GraphQL.Types;
 
-namespace Loggy.Api.Model.Queries
+namespace Loggy.Api.GraphQlSchema.Queries
 {
 	public class RootQuery: ObjectGraphType
 	{

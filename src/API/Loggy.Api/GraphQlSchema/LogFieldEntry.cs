@@ -1,11 +1,8 @@
 ﻿using GraphQL.Types;
+using Loggy.Api.Model.Model;
 
-namespace Loggy.Api.Model
+namespace Loggy.Api.GraphQlSchema
 {
-	public class LogFieldEntry
-	{
-	}
-
 	public class LogFieldEntryGraphType: ObjectGraphType<LogFieldEntry>
 	{
 	}

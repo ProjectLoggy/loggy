@@ -1,22 +1,9 @@
 ﻿using GraphQL.Types;
-using Loggy.Api.DataAccess;
+using Loggy.Api.DataAccess.MongoDb.DataAccess;
+using Loggy.Api.Model.Model;
 
-namespace Loggy.Api.Model
+namespace Loggy.Api.GraphQlSchema
 {
-	public class LogFieldDefinition
-	{
-		public string FieldId { get; set; }
-		public string FieldName { get; set; }
-
-		public string DataTypeId { get; set; }
-
-		public LogFieldDefinition(string fieldId, string fieldName, string dataTypeId)
-		{
-			FieldId = fieldId;
-			FieldName = fieldName;
-		}
-	}
-
 	public class LogFieldDefinitionGraphType: ObjectGraphType<LogFieldDefinition>
 	{
 		public LogFieldDefinitionGraphType(IDataTypeRepository dataTypeRepo)

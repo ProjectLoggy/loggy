@@ -1,4 +1,5 @@
 ﻿using Loggy.Api.DataAccess;
+using Loggy.Api.DataAccess.MongoDb.DataAccess;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using MongoDB.Driver;

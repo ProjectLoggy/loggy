@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Loggy.Api.Model;
+using Loggy.Api.Model.Model;
 
-namespace Loggy.Api.DataAccess
+namespace Loggy.Api.DataAccess.MongoDb.DataAccess
 {
 	public interface ILogEntryRepository
 	{

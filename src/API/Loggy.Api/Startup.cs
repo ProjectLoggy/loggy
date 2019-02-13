@@ -4,13 +4,12 @@ using GraphQL.Types;
 using Loggy.Api.Config;
 using Loggy.Api.DataAccess;
 using Loggy.Api.Model;
-using Loggy.Api.Model.Queries;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using MongoDB.Driver;
-using Schema = Loggy.Api.Model.Schema;
+using Schema = Loggy.Api.GraphQlSchema.Schema;
 
 namespace Loggy.Api
 {
