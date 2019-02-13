@@ -15,8 +15,8 @@ Loggy aims to be the one stop solution for all your personal life tracking and l
 * Visual Studio 2017 - Enterprise or Community Edition.
 * Git
 * [Minikube](https://kubernetes.io/docs/setup/minikube/) - Simple Kubernetes cluster, to debug locally.
-  * See [Minikube Windows 10 Debugging Tips](https://github.com/ProjectLoggy/loggy/blob/master/doc/minikube+windows+10+debugging+tips.md) if you have trouble running Minikube.
-
+  * See [Minikube Windows 10 Debugging Tips](https://github.com/ProjectLoggy/loggy/blob/master/doc/minikube%20windows%2010%20debugging%20tips.md) if you have trouble running Minikube.
+ 
 ### Installing
 
 * Pull source code from the repo.
