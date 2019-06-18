@@ -33,7 +33,7 @@ Coming soon...
 
 ## Built With
 
-* [.NET CORE 2.2](https://www.microsoft.com/net/download) - BackEnd language
+* [.NET CORE 2.2](https://www.microsoft.com/net/download) - Server-side
   * MSTest - BackEnd unit tests.
 * [GraphQL](https://graphql.org/) using [GraphQL-dotnet](https://github.com/graphql-dotnet/graphql-dotnet) - API Handler
 * [React](https://reactjs.org/) - FrontEnd
