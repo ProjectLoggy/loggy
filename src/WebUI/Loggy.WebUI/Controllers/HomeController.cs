@@ -4,7 +4,6 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Loggy.WebUI.Models;
 
 namespace Loggy.WebUI.Controllers
 {
@@ -12,32 +11,7 @@ namespace Loggy.WebUI.Controllers
 	{
 		public IActionResult Index()
 		{
-			return View();
-		}
-
-		public IActionResult About()
-		{
-			ViewData["Message"] = "This is a test";
-
-			return View();
-		}
-
-		public IActionResult Contact()
-		{
-			ViewData["Message"] = "Your contact page.";
-
-			return View();
-		}
-
-		public IActionResult Privacy()
-		{
-			return View();
-		}
-
-		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-		public IActionResult Error()
-		{
-			return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+			return View("~/loggy/public/index.html");
 		}
 	}
 }
