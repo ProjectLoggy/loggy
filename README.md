@@ -10,18 +10,17 @@ Loggy aims to be the one stop solution for all your personal life tracking and l
 
 * [Architecture docs](https://github.com/ProjectLoggy/loggy/blob/master/doc/architecture.md)
 
-### Prerequisites
+### Prerequisites (local environment)
 
-* Visual Studio 2017 - Enterprise or Community Edition.
-* Git
-* [Minikube](https://kubernetes.io/docs/setup/minikube/) - Simple Kubernetes cluster, to debug locally.
-  * See [Minikube Windows 10 Debugging Tips](https://github.com/ProjectLoggy/loggy/blob/master/doc/minikube%20windows%2010%20debugging%20tips.md) if you have trouble running Minikube.
+* Visual Studio 2017+ or Jetbrains Rider
+* Git.
+* Docker for Desktop with Kubernetes enabled.
  
 ### Installing
 
 * Pull source code from the repo.
 * Build docker images.
-* Update local Kubernetes deployments by deploying to Minikube.
+* Deploy to local Docker-Kubernetes cluster to test.
 
 ## Running the tests
 
@@ -33,8 +32,8 @@ Coming soon...
 
 ## Built With
 
-* [.NET CORE 2.2](https://www.microsoft.com/net/download) - BackEnd language
-  * MSTest - BackEnd unit tests.
+* [.NET CORE 2.2](https://www.microsoft.com/net/download) - Server-side
+  * [xUnit](https://xunit.net/) - Back end unit tests.
 * [GraphQL](https://graphql.org/) using [GraphQL-dotnet](https://github.com/graphql-dotnet/graphql-dotnet) - API Handler
 * [React](https://reactjs.org/) - FrontEnd
   * [Jasmine BDD](https://jasmine.github.io/index.html) - FrontEnd unit tests.
@@ -61,18 +60,12 @@ Code quality analysis is done using [Sonar Qube](https://sonarcloud.io/organizat
 
 ## Authors
 
-* **Willem Odendaal** - *Idea Wizard and Repo Creator* - [WillemO](https://github.com/willemodendaal)
-* **Ryan McCartney** - *The next Zuckerberg and Readme designer* - [Ryan](https://github.com/RJMccartney)
-* **Jean-Paul Thorne** - *Who came up with these titles???* - [JP](https://github.com/JPThorne)
+* **Willem Odendaal** - [WillemO](https://github.com/willemodendaal)
+* **Ryan McCartney** - [Ryan](https://github.com/RJMccartney)
+* **Jean-Paul Thorne** - [JP](https://github.com/JPThorne)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/ProjectLoggy/loggy/graphs/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the GPL License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Shoutout to Goku
-* Inspiration from JP Thorne
-* Big thanks for Tim-Berners Lee for making the web all possible
+This project is licensed under the GPL License - see the [LICENSE.md](LICENSE.md) file for details.
