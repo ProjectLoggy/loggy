@@ -64,7 +64,7 @@ Code quality analysis is done using [Sonar Qube](https://sonarcloud.io/organizat
 * **Ryan McCartney** - [Ryan](https://github.com/RJMccartney)
 * **Jean-Paul Thorne** - [JP](https://github.com/JPThorne)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/ProjectLoggy/loggy/graphs/contributors) who participated in this project.
 
 ## License
 
