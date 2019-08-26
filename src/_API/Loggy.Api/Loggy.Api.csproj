@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Loggy.Api.DataAccess.MongoDb\Loggy.Api.DataAccess.MongoDb.csproj" />
+    <ProjectReference Include="..\Loggy.Api.DataAccess.MongoDb\Loggy.Api.DataAccess.MongoDb.csproj" />
     <ProjectReference Include="..\Loggy.Api.Model\Loggy.Api.Model.csproj" />
   </ItemGroup>
 

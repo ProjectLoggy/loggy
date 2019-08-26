@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\LogChannels\Loggy.LogChannels.Api\Loggy.Channels.ApiChannel.csproj" />
+    <ProjectReference Include="..\..\_LogChannels\Loggy.LogChannels.Api\Loggy.Channels.ApiChannel.csproj" />
   </ItemGroup>
 
 </Project>
