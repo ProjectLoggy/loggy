@@ -22,13 +22,9 @@ Loggy aims to be the one stop solution for all your personal life tracking and l
 * Build docker images.
 * Deploy to local Docker-Kubernetes cluster to test.
 
-## Running the tests
+## Contributing
 
-Coming soon...
-
-## Deployment
-
-Coming soon...
+We're still laying the foundations. Check here back soon!
 
 ## Built With
 
@@ -45,10 +41,6 @@ Coming soon...
 * [MongoDb](https://www.mongodb.com/) - Data storage
 * [Katalon](https://www.katalon.com/) - Integration testing.
 
-## Contributing
-
-Clone
-
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](Coming soon...)
@@ -57,6 +49,14 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 PR's will automatically trigger a build on [Travis](https://travis-ci.com/ProjectLoggy/loggy). PR's should not be merged unless the build is successful. 
 Code quality analysis is done using [Sonar Qube](https://sonarcloud.io/organizations/projectloggy/projects)
+
+## Running the tests
+
+Coming soon...
+
+## Deployment
+
+Coming soon...
 
 ## Authors
 
