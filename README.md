@@ -31,13 +31,14 @@ We're still laying the foundations. Check here back soon!
 * [.NET CORE 2.2](https://www.microsoft.com/net/download) - Server-side
   * [xUnit](https://xunit.net/) - Back end unit tests.
 * [GraphQL](https://graphql.org/) using [GraphQL-dotnet](https://github.com/graphql-dotnet/graphql-dotnet) - API Handler
-* [React](https://reactjs.org/) - FrontEnd
-  * [Jasmine BDD](https://jasmine.github.io/index.html) - FrontEnd unit tests.
+* [React](https://reactjs.org/) - Front end
+  * [Jasmine BDD](https://jasmine.github.io/index.html) - Front end unit tests.
   * [TypeScript](https://www.typescriptlang.org/) - Type checking.
   * [Redux](https://redux.js.org/) - State management.
   * [Webpack](https://webpack.js.org/) - Bundling.
   * [Babel](https://babeljs.io/) - Transpiling.
 * [Kubernetes](https://kubernetes.io/) - Orchestration
+  * [Kibana](https://www.elastic.co/products/kibana) and Elastic Stack for cluster monitoring.
 * [MongoDb](https://www.mongodb.com/) - Data storage
 * [Katalon](https://www.katalon.com/) - Integration testing.
 
