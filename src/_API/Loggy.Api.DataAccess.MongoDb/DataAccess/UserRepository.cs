@@ -1,5 +1,5 @@
 ﻿using System.Threading.Tasks;
-using Loggy.Api.Model.Model;
+using Loggy.Api.Model;
 
 namespace Loggy.Api.DataAccess.MongoDb.DataAccess
 {

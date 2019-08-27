@@ -1,4 +1,4 @@
-﻿namespace Loggy.Api.Model.Model
+﻿namespace Loggy.Api.Model
 {
 	public class User
 	{

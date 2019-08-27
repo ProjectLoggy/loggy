@@ -13,12 +13,12 @@
             <e p="GraphQlController.cs" t="Include" />
           </e>
           <e p="GraphQlSchema" t="Include">
-            <e p="DataTypeDefinition.cs" t="Include" />
+            <e p="DataTypeDefinitionGraphType.cs" t="Include" />
             <e p="GraphQlQueryPostBody.cs" t="Include" />
-            <e p="LogEntry.cs" t="Include" />
-            <e p="LogFieldDefinition.cs" t="Include" />
-            <e p="LogFieldEntry.cs" t="Include" />
-            <e p="LogSubjectDefinition.cs" t="Include" />
+            <e p="LogEntryGraphType.cs" t="Include" />
+            <e p="LogFieldDefinitionGraphType.cs" t="Include" />
+            <e p="LogFieldEntryGraphType.cs" t="Include" />
+            <e p="LogSubjectDefinitionGraphType.cs" t="Include" />
             <e p="Queries" t="Include">
               <e p="LogEntriesQuery.cs" t="Include" />
               <e p="LogSubjectsQuery.cs" t="Include" />
@@ -26,7 +26,7 @@
               <e p="UsersQuery.cs" t="Include" />
             </e>
             <e p="Schema.cs" t="Include" />
-            <e p="User.cs" t="Include" />
+            <e p="UserGraphType.cs" t="Include" />
           </e>
           <e p="Loggy.Api.csproj" t="IncludeRecursive" />
           <e p="obj" t="ExcludeRecursive">
@@ -63,15 +63,12 @@
         </e>
         <e p="Loggy.Api.Model" t="IncludeRecursive">
           <e p="bin" t="ExcludeRecursive" />
+          <e p="DataTypeDefinition.cs" t="Include" />
+          <e p="LogEntry.cs" t="Include" />
+          <e p="LogFieldDefinition.cs" t="Include" />
+          <e p="LogFieldEntry.cs" t="Include" />
           <e p="Loggy.Api.Model.csproj" t="IncludeRecursive" />
-          <e p="Model" t="Include">
-            <e p="DataTypeDefinition.cs" t="Include" />
-            <e p="LogEntry.cs" t="Include" />
-            <e p="LogFieldDefinition.cs" t="Include" />
-            <e p="LogFieldEntry.cs" t="Include" />
-            <e p="LogSubjectDefinition.cs" t="Include" />
-            <e p="User.cs" t="Include" />
-          </e>
+          <e p="LogSubjectDefinition.cs" t="Include" />
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
               <e p="netstandard2.0" t="Include">
@@ -79,6 +76,7 @@
               </e>
             </e>
           </e>
+          <e p="User.cs" t="Include" />
         </e>
       </e>
       <e p="_LogChannels" t="Include">

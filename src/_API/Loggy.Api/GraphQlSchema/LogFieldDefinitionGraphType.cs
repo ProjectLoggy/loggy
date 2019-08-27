@@ -1,6 +1,6 @@
 ﻿using GraphQL.Types;
 using Loggy.Api.DataAccess.MongoDb.DataAccess;
-using Loggy.Api.Model.Model;
+using Loggy.Api.Model;
 
 namespace Loggy.Api.GraphQlSchema
 {

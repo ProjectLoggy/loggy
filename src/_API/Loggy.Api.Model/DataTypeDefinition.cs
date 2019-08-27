@@ -1,5 +1,8 @@
-﻿namespace Loggy.Api.Model.Model
+﻿namespace Loggy.Api.Model
 {
+	/// <summary>
+	/// A log field is of a certain dataType.
+	/// </summary>
 	public class DataTypeDefinition
 	{
 		public string DataTypeId { get; set; }
